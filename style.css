@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header, header li{
+    display: inline-block;
+}
+header,.info {
+    padding: 20px 0 40px 60px;
+}
+header nav li {
+    margin-right: 20px;
+}
+header nav li:last-child {
+    margin-right: 0;
+}
+header nav a,.info a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 15px;
+}
+header nav a:hover,.info a:hover {
+    color: aqua;
+}
+h1 {
+    margin-left: 30px;
+    font-size: 25px;
+    color: #000;
+}
+.info table {
+    
+   width: 500px;
+    border-spacing: 50px;
+}
+.info table img {
+    width: 150px;
+    height: 150px;
+}
+.info td {
+    text-align: center;
+    vertical-align: top;
+    height: 70px;
+}
+
