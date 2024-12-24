@@ -1,0 +1,71 @@
+body,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    border: 1px solid black;
+}
+header h1  {
+    margin: 0 auto;
+}
+header h1 {
+    text-align: center;
+    padding: 30px;
+    width: 1000px;
+    font-size: 38px;
+    
+    font-weight: normal;
+}
+.links {
+    
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+header .links ul {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+
+}
+header .links img {
+    width: 65px;
+    height: 65px;
+}
+
+header .links ul:nth-child(2),
+header .links ul:nth-child(3),
+header .links ul:nth-child(4),
+header .links ul:nth-child(5),
+header .links ul:nth-child(6),
+header .links ul:nth-child(7),
+header .links ul:nth-child(8) {
+    margin-left: 100px;
+}
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+.form h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.form form {
+   display: inline-block;
+    
+    margin: 20px 550px;
+}
+.form form table input {
+    width: 300px;
+    height: 35px;
+}
+.form table a {
+    padding: 10px 60px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
